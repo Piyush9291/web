@@ -70,16 +70,14 @@ a{
     align-items: center;
     justify-content: space-around;
     height: 100px;
+    gap: 50px;
 }
 
 .navbar img{
-    display: flex;
-    text-align: center;
-    flex: 2;
+    width: 240px;
 }
 
 .list{
-    flex: 3;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -115,7 +113,7 @@ a{
 
 #responsiveMenu{
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 0px;
     background-color: white;
     height: 100vh;
@@ -141,7 +139,6 @@ a{
 }
 
 @media screen and (max-width: 1280px){
-
     .list{
         font-size: 16px;
         gap: 25px;
@@ -150,11 +147,15 @@ a{
         font-size: 18px;
         padding: 4px 14px;
     }
+    .navbar img{
+        width: 200px;
+    }
+    .navbar{
+        gap: 30px;
+    }
+
  }
  @media screen and (max-width: 1024px){
-    .navbar{
-        height: 80px;
-    }
     .list{
         font-size: 12px;
         gap: 20px;
@@ -162,6 +163,12 @@ a{
     .list button{
         font-size: 12px;
         padding: 4px 14px;
+    }
+    .navbar img{
+        width: 180px;
+    }
+    .navbar{
+        height: 80px;
     }
   }
   @media screen and (max-width: 768px){
@@ -173,6 +180,9 @@ a{
         font-size: 10px;
         padding: 2px 12px;
     }
+    .navbar img{
+        width: 140px;
+    }
   }
   @media screen and (max-width: 640px){
     .list{
@@ -180,6 +190,11 @@ a{
     }
     .HamBurger{
         display: flex;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
   }
 
