@@ -147,21 +147,20 @@ header{
  
  @media(max-width:600px){
 
-
   header{
     position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
     width: 100%;
-    padding: 1rem 1.1rem;
+    /* padding: 1rem 1.1rem; */
     display: flex;
     align-items: center;
     justify-content: space-between; 
   }
   
     #logo{
-      width: 110px;
+      width: 100px;
       height: 30px;
    }
    
@@ -170,19 +169,69 @@ header{
    }
    
    .mail h2{
-    font-size: 12px;
+    font-size: 10px;
    }
   
   
    .mail h2 i{
         color: red;
         padding-right: 6px;
-        font-size: 12px;
+        font-size: 9px;
         align-items: center;
         justify-content: center;
    }
   
   }
+
+
+  @media(max-width:400px){
+
+
+    header{
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 1000;
+      width: 100%;
+      /* padding: 1rem 1.1rem; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+    }
+    
+      #logo{
+        width: 60px;
+        height: 20px;
+     }
+     
+     .mail{
+         gap: 0.1rem;
+     }
+     
+     .mail h2{
+      font-size: 7px;
+     }
+    
+    
+     .mail h2 i{
+          color: red;
+          padding-right: 4px;
+          font-size: 8px;
+          align-items: center;
+          justify-content: center;
+     }
+    
+    }
+
+
+
+
+
+
+
+
+
+
 
  .home{
   background-color: rgba(184, 181, 181, 0.687);
