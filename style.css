@@ -200,7 +200,7 @@ header{
     }
     
       #logo{
-        width: 60px;
+        width: 70px;
         height: 20px;
      }
      
@@ -222,15 +222,6 @@ header{
      }
     
     }
-
-
-
-
-
-
-
-
-
 
 
  .home{
@@ -334,7 +325,7 @@ header{
   }
 
   .home-img img{
-    height:300px;
+    height:280px;
     background-color: red;
  } 
 }
@@ -344,9 +335,9 @@ header{
 
   .home{
     margin-top: 5rem;
-    height: 30vh;
+    height: 35vh;
     gap: 1rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .home-text h1{
@@ -360,7 +351,33 @@ header{
   }
 
   .home-img img{
-    height:200px;
+    height:220px;
+    background-color: red;
+ } 
+}
+
+@media(max-width:400px){
+
+
+  .home{
+    margin-top: 5rem;
+    height: 25vh;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+
+  .home-text h1{
+    font-size: 8px;
+  }
+
+  .btn{
+    font-size: 7px;
+    padding: 4px 1rem;
+    border-radius: 15px;
+  }
+
+  .home-img img{
+    height:155px;
     background-color: red;
  } 
 }
