@@ -348,11 +348,11 @@ header{
   }
 }
 
-@media(max-width:600px){
+@media(max-width:640px){
 
   .home{
     height: 310px;
-    margin-top: 3rem;
+    margin-top: 4rem;
     gap: 40px;
   }
   
