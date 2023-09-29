@@ -278,8 +278,9 @@ header{
   }
 
   .home-img img{
-    height:480px;
+    height:450px;
     background-color: red;
+    margin-bottom: 8px;
  } 
 }
 
@@ -301,7 +302,7 @@ header{
   }
 
   .home-img img{
-    height:430px;
+    height:400px;
     background-color: red;
  } 
 }
@@ -309,7 +310,7 @@ header{
 @media(max-width:768px){
   .home{
     margin-top: 5rem;
-    height: 45vh;
+    height: 55vh;
     gap: 1.5rem;
     margin-top: 4rem;
   }
@@ -325,8 +326,9 @@ header{
   }
 
   .home-img img{
-    height:280px;
+    height:350px;
     background-color: red;
+    margin-bottom: 6px;
  } 
 }
 
@@ -335,7 +337,7 @@ header{
 
   .home{
     margin-top: 5rem;
-    height: 35vh;
+    height: 47vh;
     gap: 1rem;
     margin-top: 3rem;
   }
@@ -351,8 +353,9 @@ header{
   }
 
   .home-img img{
-    height:220px;
+    height:300px;
     background-color: red;
+    margin-bottom: 5px;
  } 
 }
 
@@ -379,5 +382,6 @@ header{
   .home-img img{
     height:155px;
     background-color: red;
+    margin-bottom: 3px;
  } 
 }
