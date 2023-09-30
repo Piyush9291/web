@@ -209,14 +209,14 @@ header{
      }
      
      .mail h2{
-      font-size: 7px;
+      font-size: 4px;
      }
     
     
      .mail h2 i{
           color: red;
           padding-right: 4px;
-          font-size: 8px;
+          font-size: 5px;
           align-items: center;
           justify-content: center;
      }
