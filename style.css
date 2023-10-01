@@ -703,16 +703,16 @@ header{
   
   .boxes{
     display: flex;
-    gap: .5rem;
+    gap: .3rem;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 1em;
+    padding-top: .5em;
   }
   
    .box-text{
     border: 1px solid black;
-    padding: 8px;
-    font-size: 7px;
+    padding: 5px;
+    font-size: 4px;
   }
   
    
@@ -725,17 +725,17 @@ header{
   .box-text h3{
     background-color: black;
     color: white;
-    padding: 2px;
-    font-size: 6px;
-    margin: 0px 8px 7px 8px; 
+    padding: 1px;
+    font-size: 4px;
+    margin: 0px 5px 4px 5px; 
   }
   
    .box-text .line{
     background-color: white;
     color: black;
-    padding: 2px;
-    font-size: 6px;
-    margin: 0px 8px 7px 8px; 
+    padding: 1px;
+    font-size: 4px;
+    margin: 0px 5px 4px 5px; 
   }
 }
 
