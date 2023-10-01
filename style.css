@@ -560,8 +560,8 @@ header{
   .boxes{
     display: flex;
     gap: 2rem;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 2rem;
   }
   
@@ -762,6 +762,33 @@ header{
   padding: 5px;
   font-size: 20px;
   margin: 0px 30px 15px 30px; 
+}
+
+@media(max-width:900px){
+
+  .boxess{
+    display: flex;
+    gap: 2rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 1.5rem;
+  }
+  
+   .box-texts{
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  
+  .box-texts h3{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0px 16px 9px 16px; 
+  }
+  
 }
 
 @media(max-width:765px){
