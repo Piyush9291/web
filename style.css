@@ -790,6 +790,34 @@ header{
     font-size: 14px;
     margin: 0px 20px 10px 20px; 
   }
+}
+
+@media(max-width:640px){
+
+  .boxess{
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 2rem;
+  }
   
+  .box-texts{
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 11px;
+  } 
+
+  .box-texts img{
+    width: 30px;
+  }
   
+  .box-texts h3{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    margin: 0px 20px 8px 20px; 
+  }
 }
