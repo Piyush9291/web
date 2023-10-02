@@ -913,11 +913,15 @@ header{
   .box-texts{
     border: 1px solid black;
     padding: 5px;
-    font-size: 8px;
+    font-size: 7px;
   } 
 
   .box-texts img{
     width: 30px;
+  }
+
+  .box-text img{
+    width: 25px;
   }
   
   .box-texts h3{
@@ -925,6 +929,6 @@ header{
     color: white;
     padding: 2px;
     font-size: 7px;
-    margin: 0px 10px 7px 10px; 
+    margin: 0px 12px 7px 12px; 
   }
 }
