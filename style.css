@@ -913,7 +913,7 @@ header{
   .box-texts{
     border: 1px solid black;
     padding: 5px;
-    font-size: 7px;
+    font-size: 5px;
   } 
 
   .box-texts img{
@@ -921,14 +921,14 @@ header{
   }
 
   .box-text img{
-    width: 25px;
+    width: 20px;
   }
   
   .box-texts h3{
     background-color: black;
     color: white;
     padding: 2px;
-    font-size: 7px;
+    font-size: 5px;
     margin: 0px 12px 7px 12px; 
   }
 }
