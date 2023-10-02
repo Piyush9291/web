@@ -691,7 +691,7 @@ header{
   }
 }
 
-/* @media(max-width:565px){
+  @media(max-width:565px){
 
   .study-text{
     font-size: 10px;
@@ -754,7 +754,7 @@ header{
   border: 1px solid black;
   padding: 18px;
   font-size: 21px;
-}
+} 
 
 .box-texts h3{
   background-color: black;
@@ -764,159 +764,3 @@ header{
   margin: 0px 30px 15px 30px; 
 }
 
-@media(max-width:900px){
-
-  .boxess{
-    display: flex;
-    gap: 2rem;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 1.5rem;
-  }
-  
-   .box-texts{
-    border: 1px solid black;
-    padding: 15px;
-    font-size: 15px;
-  }
-  
-  
-  .box-texts h3{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    font-size: 15px;
-    margin: 0px 16px 9px 16px; 
-  }
-  
-}
-
-@media(max-width:765px){
- 
-  .boxess{
-    display: flex;
-    gap: 1.5rem;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 2rem;
-  }
-  
-  .box-texts{
-    border: 1px solid black;
-    padding: 18x;
-    font-size: 16px;
-  }
-
-  .box-texts img{
-    width: 50px;
-  }
-  
-  .box-texts h3{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    font-size:16px;
-    margin: 0px 18px 13px 18px; 
-  }
-}
-
-@media(max-width:640px){
-
-  .boxess{
-    display: flex;
-    gap: 1.5rem;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 2rem;
-  }
-
-  .box-texts img{
-    width: 30px;
-  }
-  
-   .box-texts{
-    border: 1px solid black;
-    padding: 7px;
-    font-size: 8px;
-  }
-  
-  .box-texts h3{
-    background-color: black;
-    color: white;
-    padding: 3px;
-    font-size: 7px;
-    margin: 0px 11px 7px 11px; 
-  }
-
-}
-
-
-@media(max-width:565px){
-
-
-  .box-texts img{
-    width: 25px;
-  }
-  
-  .boxess{
-    display: flex;
-    gap: 1rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 1rem;
-    cursor: pointer;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
-   .box-texts{
-    border: 1px solid black;
-    padding: 5px;
-    font-size: 4px;
-  }
-  
-  
-  .box-texts h3{
-    background-color: black;
-    color: white;
-    padding: 1px;
-    font-size: 5px;
-    margin: 0px 7px 4px 7px; 
-  }
-  
-  }
-
-
-/* 
-@media(max-width:640px){
- 
-  .boxess{
-    display: flex;
-    gap: 1rem;
-    text-align: center;
-    padding-left: 60px;
-    padding-right: 50px;
-    padding-top: 2rem;
-  }
-  
-  .box-texts{
-    border: 1px solid black;
-    padding: 8x;
-    font-size: 12px;
-  }
-
-  .box-texts img{
-    width: 30px;
-  }
-  
-  .box-texts h3{
-    background-color: black;
-    color: white;
-    padding: 3px;
-    font-size:13px;
-    margin: 0px 20px 10px 20px; 
-  }
-}  */
