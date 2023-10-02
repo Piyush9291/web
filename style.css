@@ -713,8 +713,8 @@ header{
   
    .box-text{
     border: 1px solid black;
-    padding: 5px;
-    font-size: 4px;
+    padding: 3px;
+    font-size: 6px;
   }
   
    
@@ -727,17 +727,17 @@ header{
   .box-text h3{
     background-color: black;
     color: white;
-    padding: 1px;
-    font-size: 4px;
-    margin: 0px 5px 4px 5px; 
+    padding: 2px;
+    font-size: 6px;
+    margin: 0px 6px 5px 6px; 
   }
   
    .box-text .line{
     background-color: white;
     color: black;
-    padding: 1px;
-    font-size: 4px;
-    margin: 0px 5px 4px 5px; 
+    padding: 2px;
+    font-size: 6px;
+    margin: 0px 6px 5px 6px; 
   }
 }
 
