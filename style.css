@@ -899,7 +899,7 @@ header{
   }
 }
 
-@media(max-width:560px){
+@media(max-width:565px){
 
   .boxess{
     display: flex;
@@ -917,11 +917,7 @@ header{
   } 
 
   .box-texts img{
-    width: 30px;
-  }
-
-  .box-texts img{
-    width: 20px;
+    width: 25px;
   }
   
   .box-texts h3{
