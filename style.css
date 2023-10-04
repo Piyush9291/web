@@ -975,8 +975,8 @@ header{
 
   .about{
     padding-top: 50px;
-    padding-left: 190px;
-    padding-right:190px;
+    padding-left: 160px;
+    padding-right:160px;
     margin-top: 25px;
   }
   
@@ -996,8 +996,8 @@ header{
 
   .about{
     padding-top: 35px;
-    padding-left: 100px;
-    padding-right:100px;
+    padding-left: 130px;
+    padding-right:130px;
     margin-top: 25px;
   }
   
@@ -1007,7 +1007,7 @@ header{
   }
   
   .about-text p{
-    font-size: 11px;
+    font-size: 15px;
     margin-top:22px;
     padding-bottom: 22px;
   } 
@@ -1017,8 +1017,8 @@ header{
 
   .about{
     padding-top: 28px;
-    padding-left: 70px;
-    padding-right:70px;
+    padding-left: 100px;
+    padding-right:100px;
     margin-top: 20px;
   }
   
@@ -1028,7 +1028,7 @@ header{
   }
   
   .about-text p{
-    font-size: 7px;
+    font-size: 10px;
     margin-top:18px;
     padding-bottom: 18px;
   } 
@@ -1038,8 +1038,8 @@ header{
 
   .about{
     padding-top: 20px;
-    padding-left: 30px;
-    padding-right:30px;
+    padding-left: 50px;
+    padding-right:50px;
     margin-top: 10px;
   }
   
@@ -1049,7 +1049,7 @@ header{
   }
   
   .about-text p{
-    font-size: 4px;
+    font-size: 7px;
     margin-top:15px;
     padding-bottom: 15px;
   }  
