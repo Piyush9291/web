@@ -1457,61 +1457,61 @@ header{
   }
   
   .gets-img img{
-    width: 150px;
+    width: 100px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
   
   .gets{
-    gap: 4rem;
+    gap: 1rem;
     padding-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
   }
   
   .gets-text h2{
-    font-size: 15px;
+    font-size: 10px;
     padding-bottom: 4px;
   }
   
   .gets-text p {
-    font-size: 10px;
+    font-size: 6px;
     gap: 4px;
   }
   
   .gets-btn{
-    font-size: 8px;
-    padding: 3px 15px; 
+    font-size: 5px;
+    padding: 3px 10px; 
     border-radius: 20px;
     margin-top: 4px;
   } 
 
   
   .you-img img{
-    width: 145px;
+    width: 100px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
   
   .you{
-    gap: 5rem;
+    gap: 1rem;
     padding-top: 15px;
     margin-left: 50px;
     margin-right: 50px;
   }
   
   .you-text h2{
-    font-size: 15px;
+    font-size: 10px;
     padding-bottom: 4px;
   }
   
   .you-text p {
-    font-size: 9px;
+    font-size: 6px;
     gap: 4px;
   }
   
   .you-btn{
-    font-size: 8px;
+    font-size: 5px;
     padding: 4px 10px; 
     border-radius: 20px;
     margin-top: 4px;
