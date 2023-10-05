@@ -1388,14 +1388,13 @@ header{
     width: 170px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    padding-left: 6px;
   }
   
   .gets{
     gap: 1.2rem;
     padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
   
   .gets-text h2{
@@ -1404,7 +1403,7 @@ header{
   }
   
   .gets-text p {
-    font-size: 11px;
+    font-size: 12px;
     gap: 5px;
   }
   
@@ -1417,17 +1416,16 @@ header{
 
 
   .you-img img{
-    width: 170px;
+    width: 175px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    padding-left: 6px;
   }
   
   .you{
     gap: 1.2rem;
     padding-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
   
   .you-text h2{
@@ -1436,7 +1434,7 @@ header{
   }
   
   .you-text p {
-    font-size: 10px;
+    font-size: 11px;
     gap: 5px;
   }
   
@@ -1445,5 +1443,77 @@ header{
     padding: 4px 20px; 
     border-radius: 25px;
     margin-top: 5px;
+  } 
+}
+
+
+@media(max-width:760px){
+
+  .work-text{
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 300;
+    margin-bottom: 15x;
+  }
+  
+  .gets-img img{
+    width: 150px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  .gets{
+    gap: 4rem;
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .gets-text h2{
+    font-size: 15px;
+    padding-bottom: 4px;
+  }
+  
+  .gets-text p {
+    font-size: 10px;
+    gap: 4px;
+  }
+  
+  .gets-btn{
+    font-size: 8px;
+    padding: 3px 15px; 
+    border-radius: 20px;
+    margin-top: 4px;
+  } 
+
+  
+  .you-img img{
+    width: 145px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  .you{
+    gap: 5rem;
+    padding-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .you-text h2{
+    font-size: 15px;
+    padding-bottom: 4px;
+  }
+  
+  .you-text p {
+    font-size: 9px;
+    gap: 4px;
+  }
+  
+  .you-btn{
+    font-size: 8px;
+    padding: 4px 10px; 
+    border-radius: 20px;
+    margin-top: 4px;
   } 
 }
