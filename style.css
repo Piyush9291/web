@@ -1054,3 +1054,396 @@ header{
     padding-bottom: 15px;
   }  
 }
+
+.work-text{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.gets-img img{
+  width: 250px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.gets{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 50px;
+  background-color: rgba(216, 81, 81, 0.811);
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.gets-text h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+}
+
+.gets-text p {
+  font-size: 20px;
+  gap: 10px;
+  color: whitesmoke;
+}
+
+.gets-btn{
+  font-size: 17px;
+  padding: 5px 35px; 
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+ .you{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.you-img img{
+  width: 250px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.you{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 50px;
+  background-color: rgb(247, 230, 230);
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.you-text h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: red;
+}
+
+.you-text p {
+  font-size: 20px;
+  gap: 10px;
+  color: black;
+}
+
+.you-btn{
+  font-size: 17px;
+  padding: 5px 35px; 
+  border-radius: 50px;
+  margin-top: 10px;
+} 
+
+@media(max-width:1200px){
+
+  .work-text{
+    font-size: 23px;
+    margin-top: 28px;
+    font-weight: 650;
+    margin-bottom: 28px;
+  }
+  
+  .gets-img img{
+    width: 240px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 10px;
+  }
+  
+  .gets{
+    gap: 1.7rem;
+    padding-top: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .gets-text h2{
+    font-size: 27px;
+    padding-bottom: 9px;
+  }
+  
+  .gets-text p {
+    font-size: 18px;
+    gap: 8px;
+  }
+  
+  .gets-btn{
+    font-size: 16px;
+    padding: 5px 32px; 
+    border-radius: 50px;
+    margin-top: 9px;
+  }
+  
+   .you{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .you-img img{
+    width: 240px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 10px;
+  }
+  
+  .you{
+    gap: 1.7rem;
+    padding-top: 45px;
+    background-color: rgb(247, 230, 230);
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .you-text h2{
+    font-size: 27px;
+    padding-bottom: 10px;
+    color: red;
+  }
+  
+  .you-text p {
+    font-size: 18px;
+    gap: 10px;
+    color: black;
+  }
+  
+  .you-btn{
+    font-size: 16px;
+    padding: 5px 32px; 
+    border-radius: 50px;
+    margin-top: 9px;
+  }   
+}
+
+@media(max-width:1050px){
+
+  .work-text{
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  .gets-img img{
+    width: 230px;
+    border-top-right-radius: 27px;
+    border-top-left-radius: 27px;
+    padding-left: 10px;
+  }
+  
+  .gets{
+    gap: 1.7rem;
+    padding-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  
+  .gets-text h2{
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+  
+  .gets-text p {
+    font-size: 16px;
+    gap: 7px;
+  }
+  
+  .gets-btn{
+    font-size: 15px;
+    padding: 5px 29px; 
+    border-radius: 45px;
+    margin-top: 8px;
+  } 
+
+  
+  .you-img img{
+    width: 230px;
+    border-top-right-radius: 27px;
+    border-top-left-radius: 27px;
+    padding-left: 10px;
+  }
+  
+  .you{
+    gap: 1.7rem;
+    padding-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  
+  .you-text h2{
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+  
+  .you-text p {
+    font-size: 16px;
+    gap: 7px;
+  }
+  
+  .you-btn{
+    font-size: 15px;
+    padding: 5px 29px; 
+    border-radius: 45px;
+    margin-top: 8px;
+  } 
+
+}
+
+@media(max-width:900px){
+
+  .work-text{
+    font-size: 18px;
+    margin-top: 22px;
+    font-weight: 500;
+    margin-bottom: 22px;
+  }
+  
+  .gets-img img{
+    width: 200px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 8px;
+  }
+  
+  .gets{
+    gap: 1.5rem;
+    padding-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .gets-text h2{
+    font-size: 22px;
+    padding-bottom: 6px;
+  }
+  
+  .gets-text p {
+    font-size: 14px;
+    gap: 6px;
+  }
+  
+  .gets-btn{
+    font-size: 13px;
+    padding: 4px 25px; 
+    border-radius: 35px;
+    margin-top: 6px;
+  } 
+
+  .you-img img{
+    width: 200px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 8px;
+  }
+  
+  .you{
+    gap: 1.5rem;
+    padding-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .you-text h2{
+    font-size: 22px;
+    padding-bottom: 6px;
+  }
+  
+  .you-text p {
+    font-size: 14px;
+    gap: 6px;
+  }
+  
+  .you-btn{
+    font-size: 13px;
+    padding: 4px 25px; 
+    border-radius: 35px;
+    margin-top: 6px;
+  } 
+
+}
+
+@media(max-width:760px){
+
+  .work-text{
+    font-size: 15px;
+    margin-top: 18px;
+    font-weight: 400;
+    margin-bottom: 18x;
+  }
+  
+  .gets-img img{
+    width: 170px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 6px;
+  }
+  
+  .gets{
+    gap: 1.2rem;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .gets-text h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .gets-text p {
+    font-size: 11px;
+    gap: 5px;
+  }
+  
+  .gets-btn{
+    font-size: 10px;
+    padding: 4px 20px; 
+    border-radius: 25px;
+    margin-top: 5px;
+  } 
+
+
+  .you-img img{
+    width: 170px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 6px;
+  }
+  
+  .you{
+    gap: 1.2rem;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .you-text h2{
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .you-text p {
+    font-size: 10px;
+    gap: 5px;
+  }
+  
+  .you-btn{
+    font-size: 10px;
+    padding: 4px 20px; 
+    border-radius: 25px;
+    margin-top: 5px;
+  } 
+}
