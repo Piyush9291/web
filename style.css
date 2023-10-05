@@ -1447,7 +1447,7 @@ header{
 }
 
 
-@media(max-width:760px){
+@media(max-width:600px){
 
   .work-text{
     font-size: 13px;
