@@ -1228,7 +1228,7 @@ header{
   .work{
     padding-left: 100px;
     padding-right: 100px;
-    gap: 2rem;
+    gap: 5rem;
   }
   
   .work-img img{
@@ -1267,7 +1267,7 @@ header{
   .work{
     padding-left: 70px;
     padding-right: 70px;
-    gap: 2rem;
+    gap: 3rem;
   }
   
   .work-img img{
