@@ -1314,21 +1314,21 @@ header{
   }
   
   .work-text h1{
-   font-size: 7px;
+   font-size: 10px;
    color: white;
    font-weight: 300;
   }
   
   .work-text p{
-    font-size: 5px;
+    font-size: 8px;
     color: white;
    margin-bottom: 5px;
   }
   
   .work-text .btn{
    padding: 5px 15px;
-   font-size: 3px;
+   font-size: 5px;
    border-radius: 15px;
-   margin-top: 5px;
+   margin-top: 4px;
   }  
 }
