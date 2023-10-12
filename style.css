@@ -1158,19 +1158,19 @@ header{
   }
   
   .work-text h1{
-   font-size: 25px;
+   font-size: 22px;
    color: white;
    font-weight: 500;
   }
   
   .work-text p{
-    font-size: 15px;
+    font-size: 14px;
     color: white;
   }
   
   .work-text .btn{
    padding: 8px 30px;
-   font-size: 14px;
+   font-size: 13px;
    border-radius: 50px;
    margin-top: 15px;
    font-weight: 400;
