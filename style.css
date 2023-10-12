@@ -1190,6 +1190,7 @@ header{
   .work{
     padding-left: 100px;
     padding-right: 100px;
+    gap: 8rem;
   }
   
   .work-img img{
