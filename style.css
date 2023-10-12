@@ -1055,7 +1055,7 @@ header{
   }  
 }
 
-.work-text{
+.head-text{
   text-align: center;
   font-size: 25px;
   margin-top: 30px;
@@ -1063,457 +1063,233 @@ header{
   margin-bottom: 30px;
 }
 
-.gets-img img{
-  width: 250px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-}
-
-.gets{
-  display: flex;
+.work{
+  display: grid;
   align-items: center;
-  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  gap: 2rem;
-  padding-top: 50px;
-  background-color: rgba(216, 81, 81, 0.811);
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
-.gets-text h2{
-  font-size: 30px;
-  padding-bottom: 10px;
-  color: whitesmoke;
-}
-
-.gets-text p {
-  font-size: 20px;
-  gap: 10px;
-  color: whitesmoke;
-}
-
-.gets-btn{
-  font-size: 17px;
-  padding: 5px 35px; 
-  border-radius: 50px;
-  margin-top: 10px;
-}
-
- .you{
-  text-align: center;
-  font-size: 25px;
-  margin-top: 30px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-
-.you-img img{
-  width: 250px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-}
-
-.you{
-  display: flex;
   align-items: center;
-  text-align: center;
-  justify-content: center;
-  gap: 2rem;
-  padding-top: 50px;
-  background-color: rgb(247, 230, 230);
-  margin-left: 250px;
-  margin-right: 250px;
+  padding-left: 250px;
+  padding-right: 250px;
+  background-color: rgb(234, 94, 94);
 }
 
-.you-text h2{
-  font-size: 30px;
-  padding-bottom: 10px;
-  color: red;
+.work-img img{
+  width:300px;
 }
 
-.you-text p {
+.work-text h1{
+ font-size: 30px;
+ color: white;
+}
+
+.work-text p{
   font-size: 20px;
-  gap: 10px;
-  color: black;
+  color: white;
 }
 
-.you-btn{
-  font-size: 17px;
-  padding: 5px 35px; 
-  border-radius: 50px;
-  margin-top: 10px;
-} 
+.work-text .btn{
+ background-color: white;
+ color: black;
+ padding: 10px 40px;
+ font-size: 15px;
+ border-radius: 50px;
+ margin-top: 20px;
+ font-weight: 500;
+ border: none;
+}
+
 
 @media(max-width:1200px){
 
-  .work-text{
-    font-size: 23px;
-    margin-top: 28px;
-    font-weight: 650;
-    margin-bottom: 28px;
-  }
-  
-  .gets-img img{
-    width: 240px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    padding-left: 10px;
-  }
-  
-  .gets{
-    gap: 1.7rem;
-    padding-top: 45px;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-  
-  .gets-text h2{
-    font-size: 27px;
-    padding-bottom: 9px;
-  }
-  
-  .gets-text p {
-    font-size: 18px;
-    gap: 8px;
-  }
-  
-  .gets-btn{
-    font-size: 16px;
-    padding: 5px 32px; 
-    border-radius: 50px;
-    margin-top: 9px;
-  }
-  
-   .you{
-    text-align: center;
+  .head-text{
     font-size: 25px;
     margin-top: 30px;
     font-weight: 700;
     margin-bottom: 30px;
   }
-  
-  .you-img img{
-    width: 240px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    padding-left: 10px;
+
+  .work{
+    padding-left: 230px;
+    padding-right: 230px;
   }
   
-  .you{
-    gap: 1.7rem;
-    padding-top: 45px;
-    background-color: rgb(247, 230, 230);
-    margin-left: 200px;
-    margin-right: 200px;
+  .work-img img{
+    width:280px;
   }
   
-  .you-text h2{
-    font-size: 27px;
-    padding-bottom: 10px;
-    color: red;
+  .work-text h1{
+   font-size: 28px;
+   color: white;
   }
   
-  .you-text p {
+  .work-text p{
     font-size: 18px;
-    gap: 10px;
-    color: black;
+    color: white;
   }
   
-  .you-btn{
-    font-size: 16px;
-    padding: 5px 32px; 
-    border-radius: 50px;
-    margin-top: 9px;
-  }   
+  .work-text .btn{
+   padding: 10px 35px;
+   font-size: 15px;
+   border-radius: 50px;
+   margin-top: 20px;
+   font-weight: 500;
+  }
+  
 }
 
 @media(max-width:1050px){
 
-  .work-text{
-    font-size: 20px;
+  .head-text{
+    font-size: 22px;
     margin-top: 25px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 25px;
   }
-  
-  .gets-img img{
-    width: 230px;
-    border-top-right-radius: 27px;
-    border-top-left-radius: 27px;
-    padding-left: 10px;
-  }
-  
-  .gets{
-    gap: 1.7rem;
-    padding-top: 40px;
-    margin-left: 180px;
-    margin-right: 180px;
-  }
-  
-  .gets-text h2{
-    font-size: 25px;
-    padding-bottom: 8px;
-  }
-  
-  .gets-text p {
-    font-size: 16px;
-    gap: 7px;
-  }
-  
-  .gets-btn{
-    font-size: 15px;
-    padding: 5px 29px; 
-    border-radius: 45px;
-    margin-top: 8px;
-  } 
 
-  
-  .you-img img{
-    width: 230px;
-    border-top-right-radius: 27px;
-    border-top-left-radius: 27px;
-    padding-left: 10px;
+  .work{
+    padding-left: 200px;
+    padding-right: 200px;
   }
   
-  .you{
-    gap: 1.7rem;
-    padding-top: 40px;
-    margin-left: 180px;
-    margin-right: 180px;
+  .work-img img{
+    width:260px;
   }
   
-  .you-text h2{
-    font-size: 25px;
-    padding-bottom: 8px;
+  .work-text h1{
+   font-size: 25px;
+   color: white;
+   font-weight: 500;
   }
   
-  .you-text p {
-    font-size: 16px;
-    gap: 7px;
-  }
-  
-  .you-btn{
+  .work-text p{
     font-size: 15px;
-    padding: 5px 29px; 
-    border-radius: 45px;
-    margin-top: 8px;
-  } 
-
+    color: white;
+  }
+  
+  .work-text .btn{
+   padding: 8px 30px;
+   font-size: 14px;
+   border-radius: 50px;
+   margin-top: 15px;
+   font-weight: 400;
+  }
+  
 }
 
 @media(max-width:900px){
 
-  .work-text{
-    font-size: 18px;
-    margin-top: 22px;
+  
+  .head-text{
+    font-size: 20px;
+    margin-top: 20px;
     font-weight: 500;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
   }
-  
-  .gets-img img{
-    width: 200px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    padding-left: 8px;
-  }
-  
-  .gets{
-    gap: 1.5rem;
-    padding-top: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  
-  .gets-text h2{
-    font-size: 22px;
-    padding-bottom: 6px;
-  }
-  
-  .gets-text p {
-    font-size: 14px;
-    gap: 6px;
-  }
-  
-  .gets-btn{
-    font-size: 13px;
-    padding: 4px 25px; 
-    border-radius: 35px;
-    margin-top: 6px;
-  } 
 
-  .you-img img{
-    width: 200px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    padding-left: 8px;
+  .work{
+    padding-left: 170px;
+    padding-right: 170px;
   }
   
-  .you{
-    gap: 1.5rem;
-    padding-top: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
+  .work-img img{
+    width:240px;
   }
   
-  .you-text h2{
-    font-size: 22px;
-    padding-bottom: 6px;
+  .work-text h1{
+   font-size: 20px;
+   color: white;
+   font-weight: 450;
   }
   
-  .you-text p {
+  .work-text p{
     font-size: 14px;
-    gap: 6px;
+    color: white;
   }
   
-  .you-btn{
-    font-size: 13px;
-    padding: 4px 25px; 
-    border-radius: 35px;
-    margin-top: 6px;
-  } 
-
+  .work-text .btn{
+   padding: 8px 30px;
+   font-size: 14px;
+   border-radius: 35px;
+   margin-top: 15px;
+   font-weight: 400;
+  }
 }
 
 @media(max-width:760px){
 
-  .work-text{
-    font-size: 15px;
-    margin-top: 18px;
-    font-weight: 400;
-    margin-bottom: 18x;
-  }
-  
-  .gets-img img{
-    width: 170px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-  }
-  
-  .gets{
-    gap: 1.2rem;
-    padding-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
-  
-  .gets-text h2{
+  .head-text{
     font-size: 18px;
-    padding-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
   }
-  
-  .gets-text p {
-    font-size: 12px;
-    gap: 5px;
-  }
-  
-  .gets-btn{
-    font-size: 10px;
-    padding: 4px 20px; 
-    border-radius: 25px;
-    margin-top: 5px;
-  } 
 
-
-  .you-img img{
-    width: 175px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  .work{
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 2rem;
   }
   
-  .you{
-    gap: 1.2rem;
-    padding-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+  .work-img img{
+    width:210px;
   }
   
-  .you-text h2{
-    font-size: 18px;
-    padding-bottom: 5px;
+  .work-text h1{
+   font-size: 18px;
+   color: white;
+   font-weight: 450;
   }
   
-  .you-text p {
-    font-size: 11px;
-    gap: 5px;
+  .work-text p{
+    font-size: 14px;
+    color: white;
   }
   
-  .you-btn{
-    font-size: 10px;
-    padding: 4px 20px; 
-    border-radius: 25px;
-    margin-top: 5px;
-  } 
+  .work-text .btn{
+   padding: 6px 25px;
+   font-size: 12px;
+   border-radius: 25px;
+   margin-top: 15px;
+   font-weight: 400;
+  }
 }
 
+@media(max-width:640px){
 
-@media(max-width:600px){
+  .head-text{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
 
-  .work-text{
-    font-size: 13px;
-    margin-top: 15px;
-    font-weight: 300;
-    margin-bottom: 15x;
+  .work{
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 2rem;
   }
   
-  .gets-img img{
-    width: 100px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+  .work-img img{
+    width:170px;
   }
   
-  .gets{
-    gap: 1rem;
-    padding-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+  .work-text h1{
+   font-size: 15px;
+   color: white;
+   font-weight: 400;
+   padding-top: 10px;
   }
   
-  .gets-text h2{
-    font-size: 10px;
-    padding-bottom: 4px;
+  .work-text p{
+    font-size: 11px;
+    color: white;
   }
   
-  .gets-text p {
-    font-size: 6px;
-    gap: 4px;
+  .work-text .btn{
+   padding: 5px 20px;
+   font-size: 8px;
+   border-radius: 20px;
+   margin-top: 10px;
   }
-  
-  .gets-btn{
-    font-size: 5px;
-    padding: 3px 10px; 
-    border-radius: 20px;
-    margin-top: 4px;
-  } 
-
-  
-  .you-img img{
-    width: 100px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-  }
-  
-  .you{
-    gap: 1rem;
-    padding-top: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  
-  .you-text h2{
-    font-size: 10px;
-    padding-bottom: 4px;
-  }
-  
-  .you-text p {
-    font-size: 6px;
-    gap: 4px;
-  }
-  
-  .you-btn{
-    font-size: 5px;
-    padding: 4px 10px; 
-    border-radius: 20px;
-    margin-top: 4px;
-  } 
 }
