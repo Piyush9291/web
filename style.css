@@ -344,7 +344,7 @@ header{
 @media(max-width:748px){
 
   .home{
-    height: 400px;
+    height: 350px;
     margin-top: 6rem;
     align-items: center;
     display: flex;
@@ -352,21 +352,21 @@ header{
   }
   
   .home-text h1{
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.2;
     font-weight: 400px;
   }
   
   .btn{
-    font-size: 12px;
+    font-size: 10px;
     background-color: black;
-    padding: 6px 25px;
+    padding: 6px 22px;
     margin-top: 6px;
-    border-radius: 20px;
+    border-radius: 17px;
   }
   
   .home-img img{
-    height: 375px;
+    height: 325px;
   }
   
 }
@@ -374,15 +374,15 @@ header{
 @media(max-width:640px){
 
   .home{
-    height: 300px;
-    margin-top: 4rem;
+    height: 270px;
+    margin-top: 3rem;
     align-items: center;
     display: flex;
-    gap: 40px;
+    gap: 45px;
   }
   
   .home-text h1{
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1;
     font-weight: 400px;
   }
@@ -390,18 +390,18 @@ header{
   .btn{
     font-size: 8px;
     background-color: black;
-    padding: 5px 20px;
+    padding: 5px 18px;
     margin-top: 6px;
-    border-radius: 15px;
+    border-radius: 13px;
   }
   
   .home-img img{
-    height: 275px;
+    height: 245px;
   }
   
 }
 
-@media(max-width:560px){
+/*@media(max-width:560px){
 
   .home{
     height: 230px;
@@ -429,7 +429,7 @@ header{
     height: 205px;
   }
 
-}
+} */
 
 
 
