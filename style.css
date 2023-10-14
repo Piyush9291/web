@@ -117,11 +117,11 @@ header{
 @media(max-width:748px){
 
   header{
-    padding: 12px 4%;
+    padding: 12px 3%;
   }
 
   #logo{
-    width: 200px;
+    width: 180px;
     height: 80px;
  }
  
@@ -131,13 +131,13 @@ header{
  }
  
  .mail h2{
-   font-size: 17px;
+   font-size: 15px;
  }
  
  .mail h2 i{
       color: red;
       padding-right: 8px;
-      font-size: 19px;
+      font-size: 16px;
  } 
 }
 
@@ -145,7 +145,7 @@ header{
 
 
   header{
-    padding: 10px 3%;
+    padding: 10px 2%;
   }
 
   #logo{
