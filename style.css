@@ -113,32 +113,6 @@ header{
  }
 }
 
-/* @media(max-width:1024px){
-
-  header{
-    padding: 14px 4%;
-  }
-
-  #logo{
-    width: 240px;
-    height: 85px;
- }
- 
- .mail{
-     display: flex;
-     gap: 1rem;
- }
- 
- .mail h2{
-   font-size: 18px;
- }
- 
- .mail h2 i{
-      color: red;
-      padding-right: 8px;
-      font-size: 20px;
- }
-} */
 
 @media(max-width:748px){
 
@@ -157,13 +131,13 @@ header{
  }
  
  .mail h2{
-   font-size: 19px;
+   font-size: 17px;
  }
  
  .mail h2 i{
       color: red;
       padding-right: 8px;
-      font-size: 20px;
+      font-size: 19px;
  } 
 }
 
@@ -184,17 +158,17 @@ header{
  }
  
  .mail h2{
-   font-size: 17px;
+   font-size: 16px;
  }
  
  .mail h2 i{
       color: red;
       padding-right: 8px;
-      font-size: 18px;
+      font-size: 17px;
  } 
 }
 
-
+/* /* home */
 
  .home{
   background-color: rgba(184, 181, 181, 0.687);
@@ -230,9 +204,114 @@ header{
   border-bottom-left-radius: 50%;
 }
 
+@media(max-width:1200px){
+
+  .home{
+    height: 515px;
+    margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    gap: 90px;
+  }
+  
+  .home-text h1{
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 500px;
+  }
+  
+  .btn{
+    font-size: 18px;
+    background-color: black;
+    padding: 9px 40px;
+    margin-top: 10px;
+    border-radius: 28px;
+  }
+  
+  .home-img img{
+    height: 490px;
+    margin-bottom: 20px;
+    background-color: red;
+    border-bottom-right-radius: 50% ;
+    border-bottom-left-radius: 50%;
+  }
+  
+}
 
 
-.study-text{
+@media(max-width:1105px){
+
+  .home{
+    height: 500px;
+    margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    gap: 80px;
+  }
+  
+  .home-text h1{
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 500px;
+  }
+  
+  .btn{
+    font-size: 16px;
+    background-color: black;
+    padding: 9px 35px;
+    margin-top: 8px;
+    border-radius: 26px;
+  }
+  
+  .home-img img{
+    height: 475px;
+    margin-bottom: 20px;
+    background-color: red;
+    border-bottom-right-radius: 50% ;
+    border-bottom-left-radius: 50%;
+  }
+  
+}
+
+
+@media(max-width:900px){
+
+  .home{
+    height: 450px;
+    margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+  }
+  
+  .home-text h1{
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 450px;
+  }
+  
+  .btn{
+    font-size: 14px;
+    background-color: black;
+    padding: 8px 30px;
+    margin-top: 7px;
+    border-radius: 24px;
+  }
+  
+  .home-img img{
+    height: 425px;
+    margin-bottom: 20px;
+    background-color: red;
+    border-bottom-right-radius: 50% ;
+    border-bottom-left-radius: 50%;
+  }
+  
+}
+
+
+
+
+ .study-text{
   font-size: 25px;
   text-align: center;
   justify-content: center;
@@ -364,5 +443,3 @@ header{
  font-weight: 500;
  border: none;
 }
-
-
