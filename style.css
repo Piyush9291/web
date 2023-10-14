@@ -513,7 +513,7 @@ header{
   
 }
 
-@media(max-width:1105px){
+/* @media(max-width:1105px){
 
   .study-text{
     font-size: 20px;
@@ -546,7 +546,7 @@ header{
     font-size: 16px;
     margin: 0px 16px 8px 16px; 
   }
-}
+} */
 
 /* @media(max-width:915px){
 
