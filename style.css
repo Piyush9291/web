@@ -556,14 +556,14 @@ header{
  @media(max-width:905px){
 
   .study-text{
-    font-size: 17px;
+    font-size: 15px;
     padding-top: 14px;
   }
   
   .boxes{
     gap: 1rem;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 1.9rem;
   }
   
@@ -573,21 +573,21 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0px 14px 6px 14px; 
   }
   
    .box-text{
-    padding: 14px;
+    padding: 10px;
   }
 
   .box-text p{
-    font-size: 14px;
+    font-size: 11px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0px 14px 6px 14px; 
   }
 } 
