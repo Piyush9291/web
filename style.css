@@ -711,11 +711,11 @@ header{
   }
   
    .box-text{
-    padding: 5px;
+    padding: 6px;
   }
 
   .box-text p{
-    font-size: 7px;
+    font-size: 8px;
   }
   
   .box-text h3{
@@ -745,7 +745,7 @@ header{
   }
   
   #box{
-    padding: 5px;
+    padding: 6px;
   }
   
    .box-text .line{
@@ -755,7 +755,7 @@ header{
   }
   
    .box-text{
-    padding: 3px;
+    padding: 4px;
   }
 
   .box-text p{
