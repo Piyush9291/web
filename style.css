@@ -721,6 +721,49 @@ header{
   }
 } 
 
+@media(max-width:460px){
+
+  .study-text{
+    font-size: 5px;
+    padding-top: 6px;
+  }
+
+  .box-text img{
+    width: 20px;
+  }
+  
+  .boxes{
+    gap: 0.4rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0.8rem;
+  }
+  
+  /* #box{
+    padding: 7px;
+  }
+   */
+   .box-text .line{
+    padding: 2px;
+    font-size: 4px;
+    margin: 0px 6px 2px 6px; 
+  }
+  
+   .box-text{
+    padding: 8px;
+  }
+
+  .box-text p{
+    font-size: 5px;
+  }
+  
+  .box-text h3{
+    padding: 2px;
+    font-size: 5px;
+    margin: 0px 6px 2px 6px; 
+  }
+} 
+
 
 
 
