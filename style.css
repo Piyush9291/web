@@ -745,13 +745,13 @@ header{
    */
    .box-text .line{
     padding: 2px;
-    font-size: 4px;
+    font-size: 5px;
     margin: 0px 6px 2px 6px; 
   }
   
-   .box-text{
+   /* .box-text{
     padding: 8px;
-  }
+  } */
 
   .box-text p{
     font-size: 5px;
