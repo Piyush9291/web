@@ -624,9 +624,9 @@ header{
     margin: 0px 11px 5px 11px; 
   }
   
-   /* .box-text{
+   .box-text{
     padding: 8px;
-  } */
+  }
 
   .box-text p{
     font-size: 10px;
@@ -657,19 +657,19 @@ header{
     padding-top: 1rem;
   }
   
-  /* #box{
-    padding: 7px;
+  #box{
+    padding: 9px;
   }
-   */
+  
    .box-text .line{
     padding: 5px;
     font-size: 9px;
     margin: 0px 10px 4px 10px; 
   }
   
-   /* .box-text{
-    padding: 8px;
-  } */
+   .box-text{
+    padding: 7px;
+  }
 
   .box-text p{
     font-size: 9px;
@@ -700,19 +700,19 @@ header{
     padding-top: 0.8rem;
   }
   
-  /* #box{
+  #box{
     padding: 7px;
   }
-   */
+  
    .box-text .line{
     padding: 3px;
     font-size: 6px;
     margin: 0px 8px 3px 8px; 
   }
   
-   /* .box-text{
-    padding: 8px;
-  } */
+   .box-text{
+    padding: 5px;
+  }
 
   .box-text p{
     font-size: 7px;
@@ -744,19 +744,19 @@ header{
     padding-top: 0.8rem;
   }
   
-  /* #box{
-    padding: 7px;
+  #box{
+    padding: 5px;
   }
-   */
+  
    .box-text .line{
     padding: 2px;
     font-size: 5px;
     margin: 0px 6px 2px 6px; 
   }
   
-   /* .box-text{
-    padding: 8px;
-  } */
+   .box-text{
+    padding: 3px;
+  }
 
   .box-text p{
     font-size: 5px;
