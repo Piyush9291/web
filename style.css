@@ -678,6 +678,49 @@ header{
   }
 } 
 
+@media(max-width:560px){
+
+  .study-text{
+    font-size: 6px;
+    padding-top: 8px;
+  }
+
+  .box-text img{
+    width: 25px;
+  }
+  
+  .boxes{
+    gap: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.8rem;
+  }
+  
+  /* #box{
+    padding: 7px;
+  }
+   */
+   .box-text .line{
+    padding: 3px;
+    font-size: 6px;
+    margin: 0px 8px 3px 8px; 
+  }
+  
+   /* .box-text{
+    padding: 8px;
+  } */
+
+  .box-text p{
+    font-size: 7px;
+  }
+  
+  .box-text h3{
+    padding: 3px;
+    font-size: 6px;
+    margin: 0px 8px 3px 8px; 
+  }
+} 
+
 
 
 
