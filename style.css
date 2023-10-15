@@ -526,10 +526,14 @@ header{
   
   .boxes{
     gap: 1.4rem;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 2.8rem;
     flex-direction: column;
+  }
+
+  .box-text img{
+    width: 100px;
   }
   
   #box{
@@ -538,7 +542,7 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px 30px 15px 30px; 
   }
   
@@ -548,12 +552,12 @@ header{
 
   
   .box-text p{
-    font-size: 15px;
+    font-size: 20px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px 30px 15px 30px; 
   }
 } 
@@ -561,38 +565,44 @@ header{
  @media(max-width:905px){
 
   .study-text{
-    font-size: 15px;
-    padding-top: 14px;
+    font-size: 20px;
+    padding-top: 16px;
   }
   
   .boxes{
-    gap: 1rem;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 1.9rem;
+    gap: 1.4rem;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 2.8rem;
+    flex-direction: column;
+  }
+
+  .box-text img{
+    width: 80px;
   }
   
   #box{
-    padding: 14px;
+    padding: 12px;
   }
   
    .box-text .line{
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     margin: 0px 25px 13px 25px; 
   }
   
    .box-text{
-    padding: 10px;
+    padding: 12px;
   }
 
+  
   .box-text p{
-    font-size: 14px;
+    font-size: 18px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     margin: 0px 25px 13px 25px; 
   }
 } 
