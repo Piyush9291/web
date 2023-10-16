@@ -481,7 +481,7 @@ header{
 }
 
 
-/* @media(max-width:1200px){
+@media(max-width:1200px){
 
   .study-text{
     font-size: 23px;
@@ -519,7 +519,7 @@ header{
     margin: 0px 18px 9px 18px; 
   }
   
-} */
+}
 
 @media(max-width:1105px){
 
@@ -540,7 +540,7 @@ header{
   }
   
   #box{
-    padding: 15px;
+    padding: 10px;
   }
   
    .box-text .line{
@@ -550,7 +550,7 @@ header{
   }
   
    .box-text{
-    padding: 15px;
+    padding: 10px;
   }
 
   .box-text p{
