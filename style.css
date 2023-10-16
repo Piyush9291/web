@@ -464,7 +464,7 @@ header{
   background-color: white;
   color: black;
   padding: 5px;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px 20px 10px 20px; 
 }
 
@@ -475,18 +475,18 @@ header{
 }
 
 .box-text p{
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .box-text h3{
   background-color: black;
   color: white;
   padding: 5px;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px 20px 10px 20px; 
 }
 
-
+/* 
 @media(max-width:1200px){
 
   .study-text{
@@ -525,9 +525,9 @@ header{
     margin: 0px 18px 9px 18px; 
   }
   
-}
+} */
 
-@media(max-width:1105px){
+/* @media(max-width:1105px){
 
   .study-text{
     font-size: 20px;
@@ -568,7 +568,7 @@ header{
     font-size: 17px;
     margin: 0px 10px 7px 10px; 
   }
-}
+} */
 
 
 
