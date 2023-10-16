@@ -525,7 +525,7 @@ header{
   }
   
   .boxes{
-    gap: 2rem;
+    gap: 5rem;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 2.8rem;
