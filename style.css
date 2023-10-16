@@ -468,6 +468,10 @@ header{
   padding: 20px;
 }
 
+.box-text p{
+  font-size: 18px;
+}
+
 .box-text h3{
   background-color: black;
   color: white;
@@ -517,6 +521,45 @@ header{
   
 }
 
+@media(max-width:1024px){
+
+  .study-text{
+    font-size: 20px;
+    padding-top: 18px;
+  }
+  
+  .boxes{
+    gap: 1.8rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 2.8rem;
+  }
+  
+  #box{
+    padding: 15px;
+  }
+  
+   .box-text .line{
+    padding: 5px;
+    font-size: 14px;
+    margin: 0px 15px 7px 15px; 
+  }
+  
+   .box-text{
+    padding: 15px;
+  }
+
+  .box-text p{
+    font-size: 13px;
+  }
+  
+  .box-text h3{
+    padding: 5px;
+    font-size: 14px;
+    margin: 0px 15px 7px 15px; 
+  }
+  
+}
 
 
 
