@@ -536,8 +536,8 @@ header{
   
   .boxes{
     gap: 1.8rem;
-    padding-left: 110px;
-    padding-right:110px;
+    padding-left: 90px;
+    padding-right:90px;
     padding-top: 2.8rem;
   }
 
@@ -552,7 +552,7 @@ header{
    .box-text .line{
     padding: 5px;
     font-size: 15px;
-    margin: 0px 16px 7px 16px; 
+    margin: 0px 10px 7px 10px; 
   }
   
    .box-text{
@@ -566,7 +566,7 @@ header{
   .box-text h3{
     padding: 5px;
     font-size: 20px;
-    margin: 0px 16px 7px 16px; 
+    margin: 0px 10px 7px 10px; 
   }
 }
 
