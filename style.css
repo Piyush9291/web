@@ -536,13 +536,13 @@ header{
   
   .boxes{
     gap: 1.8rem;
-    padding-left: 80px;
-    padding-right:80px;
+    padding-left: 7%;
+    padding-right:70px;
     padding-top: 2.8rem;
   }
 
  .box-text img{
-    width: 100px;
+    width: 80px;
   }
   
   #box{
@@ -551,7 +551,7 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0px 8px 7px 8px; 
   }
   
@@ -560,12 +560,12 @@ header{
   }
 
   .box-text p{
-    font-size: 10px;
+    font-size: 8px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0px 8px 7px 8px; 
   }
 }
