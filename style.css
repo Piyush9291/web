@@ -535,29 +535,30 @@ header{
     width: 100px;
   }
   
-  /* #box{
-   
+  #box{
+    padding-left: 20px;
+    padding-right: 20px;
     
-  } */
+  }
   
    .box-text .line{
     padding: 5px;
-    font-size: 7px;
+    font-size: 14px;
     margin: 0px 10px 10px 10px; 
   }
   
-   /* .box-text{
+   .box-text{
     padding: 20px;
-  } */
+  }
 
   
   .box-text p{
-    font-size: 8px;
+    font-size: 10px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 7px;
+    font-size: 10px;
     margin: 0px 10px 10px 10px; 
   }
 } 
