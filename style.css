@@ -526,10 +526,9 @@ header{
   
   .boxes{
     gap: 1.4rem;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 2.8rem;
-    flex-direction: column;
   }
 
   .box-text img{
@@ -542,53 +541,8 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 16px;
-    margin: 0px 30px 15px 30px; 
-  }
-  
-   .box-text{
-    padding: 12px;
-  }
-
-  
-  .box-text p{
-    font-size: 20px;
-  }
-  
-  .box-text h3{
-    padding: 5px;
-    font-size: 16px;
-    margin: 0px 30px 15px 30px; 
-  }
-} 
-
- @media(max-width:905px){
-
-  .study-text{
-    font-size: 20px;
-    padding-top: 16px;
-  }
-  
-  .boxes{
-    gap: 1.4rem;
-    padding-left: 180px;
-    padding-right: 180px;
-    padding-top: 2.8rem;
-    flex-direction: column;
-  }
-
-  .box-text img{
-    width: 80px;
-  }
-  
-  #box{
-    padding: 12px;
-  }
-  
-   .box-text .line{
-    padding: 5px;
     font-size: 15px;
-    margin: 0px 25px 13px 25px; 
+    margin: 0px 10px 10px 10px; 
   }
   
    .box-text{
@@ -603,7 +557,51 @@ header{
   .box-text h3{
     padding: 5px;
     font-size: 15px;
-    margin: 0px 25px 13px 25px; 
+    margin: 0px 10px 10px 10px; 
+  }
+} 
+
+ @media(max-width:940px){
+
+  .study-text{
+    font-size: 20px;
+    padding-top: 16px;
+  }
+  
+  .boxes{
+    gap: 1.4rem;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 2.8rem;
+  }
+
+  .box-text img{
+    width: 80px;
+  }
+  
+  #box{
+    padding: 12px;
+  }
+  
+   .box-text .line{
+    padding: 5px;
+    font-size: 13px;
+    margin: 0px 8px 8px 8px; 
+  }
+  
+   .box-text{
+    padding: 12px;
+  }
+
+  
+  .box-text p{
+    font-size: 15px;
+  }
+  
+  .box-text h3{
+    padding: 5px;
+    font-size: 13px;
+    margin: 0px 8px 8px 8px; 
   }
 } 
 
