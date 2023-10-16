@@ -542,8 +542,8 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 6px;
-    margin: 0px 12px 12px 12px; 
+    font-size: 7px;
+    margin: 0px 10px 10px 10px; 
   }
   
    /* .box-text{
@@ -552,13 +552,13 @@ header{
 
   
   .box-text p{
-    font-size: 5px;
+    font-size: 8px;
   }
   
   .box-text h3{
     padding: 5px;
     font-size: 7px;
-    margin: 0px 12px 12px 12px; 
+    margin: 0px 10px 10px 10px; 
   }
 } 
 
