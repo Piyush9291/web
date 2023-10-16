@@ -526,8 +526,8 @@ header{
   
   .boxes{
     gap: 2rem;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 2.8rem;
   }
 
@@ -541,7 +541,7 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px 10px 10px 10px; 
   }
   
@@ -551,12 +551,12 @@ header{
 
   
   .box-text p{
-    font-size: 18px;
+    font-size: 15px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px 10px 10px 10px; 
   }
 } 
@@ -570,8 +570,8 @@ header{
   
   .boxes{
     gap: 1.4rem;
-    padding-left: 150px;
-    padding-right:150px;
+    padding-left: 50px;
+    padding-right:50px;
     padding-top: 2.8rem;
   }
 
@@ -585,8 +585,8 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 14px;
-    margin: 0px 8px 8px 8px; 
+    font-size: 12px;
+    margin: 0px 15px 6px 15px; 
   }
   
    .box-text{
@@ -595,13 +595,13 @@ header{
 
   
   .box-text p{
-    font-size: 16px;
+    font-size: 12px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 14px;
-    margin: 0px 8px 8px 8px; 
+    font-size: 12px;
+    margin: 0px 15px 8px 15px; 
   }
 } 
 
