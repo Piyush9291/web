@@ -536,12 +536,12 @@ header{
   }
   
   #box{
-    padding: 15px;
+    padding: 9px;
   }
   
    .box-text .line{
     padding: 5px;
-    font-size: 14px;
+    font-size: 10px;
     margin: 0px 15px 7px 15px; 
   }
   
@@ -550,12 +550,12 @@ header{
   }
 
   .box-text p{
-    font-size: 13px;
+    font-size: 9px;
   }
   
   .box-text h3{
     padding: 5px;
-    font-size: 14px;
+    font-size: 10px;
     margin: 0px 15px 7px 15px; 
   }
   
