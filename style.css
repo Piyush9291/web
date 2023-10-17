@@ -574,14 +574,14 @@ header{
 @media(max-width:748px){
 
   .study-text{
-    font-size: 20px;
+    font-size: 10px;
     padding-top: 18px;
   }
   
   .boxes{
-    gap: 1.8rem;
-    padding-left: 100px;
-    padding-right:100px;
+    gap: 1rem;
+    padding-left: 50px;
+    padding-right:50px;
     padding-top: 2.8rem;
     flex-direction: column;
   }
