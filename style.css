@@ -574,7 +574,7 @@ header{
 @media(max-width:748px){
 
   .study-text{
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 18px;
   }
   
@@ -582,12 +582,12 @@ header{
     gap: 1rem;
     padding-left: 50px;
     padding-right:50px;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     flex-direction: column;
   }
 
  .box-text img{
-    width: 70px;
+    width: 60px;
   }
   
   #box{
