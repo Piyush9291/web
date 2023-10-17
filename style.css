@@ -660,6 +660,51 @@ header{
 }
 
 
+@media(max-width:560px){
+
+  .study-text{
+    font-size: 8px;
+    padding-top: 12px;
+  }
+  
+  .boxes{
+    gap: 1rem;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 1rem;
+    flex-direction: column;
+  }
+
+ .box-text img{
+    width: 40px;
+  }
+  
+  #box{
+    padding: 8px;
+  }
+  
+   .box-text .line{
+    padding: 5px;
+    font-size: 8px;
+    margin: 0px 6px 5px 6px; 
+  }
+  
+   .box-text{
+    padding: 8px;
+  }
+
+  .box-text p{
+    font-size: 6px;
+  }
+  
+  .box-text h3{
+    padding: 5px;
+    font-size: 8px;
+    margin: 0px 6px 5px 6px; 
+  }
+}
+
+
 .boxess{
   display: flex;
   gap: 2rem;
