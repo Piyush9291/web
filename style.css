@@ -543,6 +543,7 @@ header{
 
  .box-text img{
     width: 100px;
+    color: black;
   }
   
   #box{
@@ -588,6 +589,7 @@ header{
 
  .box-text img{
     width: 60px;
+    color: black;
   }
   
   #box{
@@ -632,6 +634,7 @@ header{
 
  .box-text img{
     width: 60px;
+    color: black;
   }
   
   #box{
@@ -640,7 +643,7 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 18px;
+    font-size: 22px;
     margin: 0px 20px 10px 20px; 
     font-weight: 500;
   }
@@ -656,7 +659,7 @@ header{
   
   .box-text h3{
     padding: 5px;
-    font-size: 18px;
+    font-size: 22px;
     margin: 0px 20px 8px 20px; 
     font-weight: 500;
   }
@@ -680,6 +683,7 @@ header{
 
  .box-text img{
     width: 40px;
+    color: black;
   }
   
   #box{
@@ -688,7 +692,7 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 12px;
+    font-size: 18px;
     margin: 0px 15px 5px 15px; 
     font-weight: 500;
   }
@@ -704,7 +708,7 @@ header{
   
   .box-text h3{
     padding: 5px;
-    font-size: 12px;
+    font-size: 18px;
     margin: 0px 15px 5px 15px; 
     font-weight: 500;
   }
