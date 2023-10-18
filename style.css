@@ -618,7 +618,7 @@ header{
 @media(max-width:640px){
 
   .study-text{
-    font-size: 10px;
+    font-size: 16px;
     padding-top: 12px;
   }
   
@@ -642,6 +642,7 @@ header{
     padding: 5px;
     font-size: 18px;
     margin: 0px 20px 10px 20px; 
+    font-weight: 500;
   }
   
    .box-text{
@@ -650,12 +651,14 @@ header{
 
   .box-text p{
     font-size: 16px;
+    font-weight: 500;
   }
   
   .box-text h3{
     padding: 5px;
     font-size: 18px;
     margin: 0px 20px 8px 20px; 
+    font-weight: 500;
   }
 }
 
@@ -663,7 +666,7 @@ header{
 @media(max-width:560px){
 
   .study-text{
-    font-size: 8px;
+    font-size: 15px;
     padding-top: 12px;
   }
   
@@ -687,6 +690,7 @@ header{
     padding: 5px;
     font-size: 12px;
     margin: 0px 15px 5px 15px; 
+    font-weight: 500;
   }
   
    .box-text{
@@ -695,12 +699,14 @@ header{
 
   .box-text p{
     font-size: 14px;
+    font-weight: 500;
   }
   
   .box-text h3{
     padding: 5px;
     font-size: 12px;
     margin: 0px 15px 5px 15px; 
+    font-weight: 500;
   }
 }
 
