@@ -752,7 +752,7 @@ header{
   .box-texts{
     border: 1px solid black;
     padding: 15px;
-    font-size: 16px;
+    font-size: 15px;
   } 
   
   .box-texts h3{
@@ -762,13 +762,13 @@ header{
   } 
 }
 
-
+/* 
 @media(max-width:1105px){
 
    .boxess{
     gap: 1.8rem;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 2.5rem;
   }
 
@@ -787,7 +787,7 @@ header{
     padding: 5px;
     font-size: 8px;
     margin: 0px 6px 5px 6px; 
-  }  
+  }   */
 
   /* .boxes{
     gap: 1.8rem;
@@ -824,7 +824,7 @@ header{
     font-size: 8px;
     margin: 0px 6px 5px 6px; 
   } */
-}
+
 .about{
   text-align: center;
   align-items: center;
