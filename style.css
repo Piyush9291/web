@@ -765,24 +765,65 @@ header{
 
 @media(max-width:1105px){
 
-  .boxess{
+   .boxess{
     gap: 1.8rem;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 2.5rem;
   }
-  
+
+  .box-texts img{
+    width: 100px;
+    color: black;
+  }
+
   .box-texts{
     border: 1px solid black;
-    padding: 13px;
-    font-size: 10px;
+    padding: 10px;
+    font-size: 9px;
   } 
   
   .box-texts h3{
     padding: 5px;
     font-size: 8px;
-    margin: 0px 25px 7px 25px; 
-  } 
+    margin: 0px 6px 5px 6px; 
+  }  
+
+  /* .boxes{
+    gap: 1.8rem;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 2.8rem;
+  }
+
+ .box-text img{
+    width: 100px;
+    color: black;
+  }
+  
+  #box{
+    padding: 10px;
+  }
+  
+   .box-text .line{
+    padding: 5px;
+    font-size: 8px;
+    margin: 0px 6px 5px 6px; 
+  }
+  
+   .box-text{
+    padding: 10px;
+  }
+
+  .box-text p{
+    font-size: 9px;
+  }
+  
+  .box-text h3{
+    padding: 5px;
+    font-size: 8px;
+    margin: 0px 6px 5px 6px; 
+  } */
 }
 .about{
   text-align: center;
