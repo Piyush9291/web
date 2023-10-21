@@ -765,9 +765,9 @@ header{
 
   .boxess{
     display: flex;
-    gap: 23rem;
-    padding-left: 60px;
-    padding-right: 60px;
+    gap: 15rem;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 2rem;
   }
   
@@ -778,7 +778,7 @@ header{
   
   .box-texts h3{
     padding: 5px;
-    font-size: 17px;
+    font-size: 15px;
     margin: 0px 25px 13px 25px; 
   }
 }
