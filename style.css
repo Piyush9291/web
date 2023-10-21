@@ -765,20 +765,20 @@ header{
 
   .boxess{
     display: flex;
-    gap: 15rem;
-    padding-left: 100px;
-    padding-right: 100px;
+    gap: 10rem;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 2rem;
   }
   
   .box-texts{
     padding: 15px;
-    font-size: 15px;
+    font-size: 10px;
   } 
   
   .box-texts h3{
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0px 25px 13px 25px; 
   }
 }
