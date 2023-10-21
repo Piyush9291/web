@@ -716,16 +716,16 @@ header{
   }
 }
 
-.boxess{
+/* .boxess{
   display: flex;
   gap: 20rem;
   text-align: center;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 2rem;
-}
+} */
 
-.box-texts{
+/* .box-texts{
   border: 1px solid black;
   padding: 18px;
   font-size: 16px;
@@ -737,8 +737,8 @@ header{
   padding: 5px;
   font-size: 18px;
   margin: 0px 30px 15px 30px; 
-}  
-
+}   */
+/* 
 @media(max-width:1200px){
 
   .boxess{
@@ -781,7 +781,7 @@ header{
     font-size: 15px;
     margin: 0px 20px 10px 20px; 
   }
-}
+} */
 
 
 .work{
