@@ -773,12 +773,12 @@ header{
   
   .box-texts{
     padding: 15px;
-    font-size: 12px;
+    font-size: 15px;
   } 
   
   .box-texts h3{
     padding: 5px;
-    font-size: 14px;
+    font-size: 17px;
     margin: 0px 25px 13px 25px; 
   }
 }
