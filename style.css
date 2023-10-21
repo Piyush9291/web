@@ -836,8 +836,8 @@ header{
 
   .about{
     padding-top: 2rem;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   
   .about h3{
@@ -847,7 +847,7 @@ header{
   }
   
   .about p{
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.5;
   }
