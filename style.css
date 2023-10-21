@@ -811,12 +811,37 @@ header{
 
   .about{
     padding-top: 2.5rem;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
   }
   
   .about h3{
     font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .about p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+  #line{
+    align-items: center;
+  }
+}
+
+@media(max-width:1105px){
+
+  .about{
+    padding-top: 2rem;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  .about h3{
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 8px;
   }
