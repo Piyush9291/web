@@ -856,3 +856,75 @@ header{
   }
 }
 
+@media(max-width:900px){
+
+  .about{
+    padding-top: 2rem;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .about h3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .about p{
+    font-size: 8px;
+    line-height: 1.1;
+  }
+  
+  #line{
+    align-items: center;
+  }
+}
+
+@media(max-width:748px){
+
+  .about{
+    padding-top: 2rem;
+    padding-left: 4px;
+    padding-right: 40px;
+  }
+  
+  .about h3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .about p{
+    font-size: 8px;
+    line-height: 1.1;
+  }
+  
+  #line{
+    align-items: center;
+  }
+}
+
+
+@media(max-width:640px){
+
+  .about{
+    padding-top: 2rem;
+    padding-left: 2px;
+    padding-right: 20px;
+  }
+  
+  .about h3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .about p{
+    font-size: 8px;
+    line-height: 1.1;
+  }
+  
+  #line{
+    align-items: center;
+  }
+}
