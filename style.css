@@ -600,7 +600,7 @@ header{
   
    .box-text .line{
     padding: 5px;
-    font-size: 35px;
+    font-size: 12px;
     margin: 0px 10px 8px 10px; 
   }
   
@@ -609,7 +609,7 @@ header{
   }
 
   .box-text p{
-    font-size: 30px;
+    font-size: 11px;
   }
   
   .box-text h3{
@@ -800,7 +800,7 @@ header{
 .about p{
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 2.5;
 }
 
 #line{
@@ -816,7 +816,7 @@ header{
   }
   
   .about h3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 8px;
   }
@@ -824,7 +824,7 @@ header{
   .about p{
     font-size: 10px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 2;
   }
   
   #line{
@@ -841,17 +841,18 @@ header{
   }
   
   .about h3{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     margin-bottom: 8px;
   }
   
   .about p{
     font-size: 8px;
-    line-height: 1;
+    line-height: 1.5;
   }
   
   #line{
     align-items: center;
   }
 }
+
