@@ -885,18 +885,18 @@ header{
   .about{
     padding-top: 2rem;
     padding-left: 4px;
-    padding-right: 40px;
+    padding-right: 60px;
   }
   
   .about h3{
     font-size: 15px;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
   
   .about p{
     font-size: 8px;
-    line-height: 1.1;
+    line-height: 1.5;
   }
   
   #line{
@@ -910,18 +910,18 @@ header{
   .about{
     padding-top: 2rem;
     padding-left: 2px;
-    padding-right: 20px;
+    padding-right: 50px;
   }
   
   .about h3{
     font-size: 15px;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
   
   .about p{
     font-size: 8px;
-    line-height: 1.1;
+    line-height: 1.5;
   }
   
   #line{
